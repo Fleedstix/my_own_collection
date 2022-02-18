@@ -1,0 +1,6 @@
+---
+- name: Test my_own_module in remote host
+  hosts:
+    - ubuntu
+  roles:
+    - my_role
